@@ -1,6 +1,6 @@
 {
   "name": "angular-resource",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "AngularJS module for interacting with RESTful server-side data sources",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,6 @@
     "angular": "^1.4.8"
   },
   "jspm": {
-    "format": "cjs",
     "main": "angular-resource",
       "shim": {
         "angular-resource": {
