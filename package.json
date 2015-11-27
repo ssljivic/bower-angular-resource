@@ -1,6 +1,6 @@
 {
   "name": "angular-resource",
-  "version": "2.0.0",
+  "version": "2.0.3",
   "description": "AngularJS module for interacting with RESTful server-side data sources",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,15 @@
     "url": "https://github.com/angular/angular.js.git"
   },
   "peerDependencies": {
-    "angular": "^1.4.8 || >1.4.8"
+    "angular": "^1.4.8"
   },
   "jspm": {
     "dependencies": {
-      "angular": "angular/bower-angular@^1.4.8"
+      "angular": "github:angular/bower-angular@^1.4.8"
     },
-    "peerDependencies": {}
+    "peerDependencies": {
+      "angular": "^1.4.8"
+    }
   },
   "keywords": [
     "angular",
