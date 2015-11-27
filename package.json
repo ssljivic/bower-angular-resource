@@ -14,10 +14,15 @@
     "angular": "^1.4.8"
   },
   "jspm": {
+    "format": "cjs",
+    "main": "angular-ui-router",
+      "shim": {
+        "angular-ui-router": {
+          "deps": ["angular"]
+        }
+      },
+    "registry": "jspm",
     "dependencies": {
-      "angular": "github:angular/bower-angular@^1.4.8"
-    },
-    "peerDependencies": {
       "angular": "^1.4.8"
     }
   },
