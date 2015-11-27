@@ -1,6 +1,6 @@
 {
   "name": "angular-resource",
-  "version": "2.0.3",
+  "version": "2.0.5",
   "description": "AngularJS module for interacting with RESTful server-side data sources",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,9 @@
   },
   "jspm": {
     "format": "cjs",
-    "main": "angular-ui-router",
+    "main": "angular-resource",
       "shim": {
-        "angular-ui-router": {
+        "angular-resource": {
           "deps": ["angular"]
         }
       },
